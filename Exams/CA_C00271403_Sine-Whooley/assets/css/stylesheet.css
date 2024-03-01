@@ -1,0 +1,99 @@
+/* Question 1 */
+
+.q1{
+    float: left;
+    width: 40%;
+    /* height:30% */
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 2%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.web-architecture::after{
+    content: "";
+    display:table;
+    clear: both;
+    
+}
+
+#q1A{
+    background-color: rgb(151, 255, 224);
+}
+
+#q1B{
+    background-color: rgb(103, 253, 208);
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+/* Question 2 */
+
+.web-protocols{
+    background-color: rgb(158, 201, 236);
+    
+    width: 100%;
+    float: center;
+}
+
+.web-protocols:hover{
+    background-color: rgb(129, 165, 194);
+}
+
+th{
+    text-align: center;
+
+    padding: 5%;
+
+}
+dt{
+    color: rgb(0, 0, 0);
+}
+.web-protocols{
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 2%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.web-proto::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* Question 3 */
+
+.web-concepts{
+    background-color: rgb(192, 220, 243);
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 2%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.web-protocols:hover{
+    background-color:  rgb(134, 153, 168);
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+footer{
+    background-color: black;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+}
