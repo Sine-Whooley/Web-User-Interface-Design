@@ -1,0 +1,173 @@
+/* --------------------------------------------------- */
+                        /* General */
+/* --------------------------------------------------- */
+
+header{
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;   
+    color: black;
+}
+
+/* Profile Picture */
+.profilePicture{
+    border-radius: 40%;
+    border: 3px solid black;
+    float: right;
+    margin: 2%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding:0.5%
+}
+
+a:hover{
+    background-color: rgb(73, 73, 75); 
+    padding: 0.8%;
+}
+
+.navbar{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(87, 88, 94); 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border: 3px double black;
+    
+}
+
+#nbItems{
+    text-align: center;
+    font-size: large;
+    display: inline;
+    padding: 10% 10% 15px 15px;
+    border: 10px;
+} 
+
+body{
+    background-color: rgb(166, 166, 180);
+    color: rgb(22, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* --------------------------------------------------- */
+                        /* Home */
+/* --------------------------------------------------- */
+
+#myName{
+    padding-top: 2%;
+    padding-bottom: 0%;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+#subHeading{ 
+    padding-top: 0px;
+}
+
+#homeWelcomeStyle{
+    padding-bottom: 11%;
+}
+
+/* Image of Modern Digital Art */
+#homeImgModern{
+    float: left;
+    border: 3px solid black;
+
+    margin-right: 1.5%;
+    margin-top: 0%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+
+    width: 35%;
+    height: auto;
+}
+
+#homeWelcome{
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+                        /* CV */
+/* --------------------------------------------------------- */
+
+/* All sections */
+.group{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: 1%;
+    padding: 1%;
+
+    background-color: rgb(44, 45, 48); 
+    color: rgb(197, 199, 202);
+
+    border-radius: 10px;
+}
+
+/* Digital Skills */
+.digitalSkills::after {  /* to create a column after (to the right of) another column  */
+    content: "";
+    display: block;
+    clear: both;
+}  
+
+.columnDS{
+    width: 30%;
+    float: left;
+}
+
+/* Work Experience */
+.pointLine{
+      list-style-type: square;
+} 
+
+
+
+/* --------------------------------------------------------- */
+                    /* Portfolio */
+/* --------------------------------------------------------- */
+th{
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+
+}
+td{
+    padding: 2%;
+}
+
+
+/* --------------------------------------------------------- */
+                    /* Contact */
+/* --------------------------------------------------------- */
+
+/* Contact Form  */
+.serviceForm{
+    float: center;
+    text-align: center;
+
+    border: 5px ridge black;
+    border-radius: 5%;
+
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+    background-color: rgb(44, 45, 48); 
+    
+    color: rgb(197, 199, 202);
+} 
+
