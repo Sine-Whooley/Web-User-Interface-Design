@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content = "Sine Whooley">
+        <meta name = "viewport" content="width=device-width", initial-scale="1.0">
+        <title>Síne Whooley </title> <!-- Lab-05:  -->
+        <link href = "assets/css/stylesheet.css" rel="stylesheet" text="text/css">
+    </head>
+
+    <body> 
+            <section class="toFadeOut">
+                <h1> Would you like to see my WebPage in Light Mode or Dark Mode???</h1>
+            </section>
+
+        <section class="homePageDisplay">
+            <header>
+                <br>
+                <section class="headerInfo">
+                    <h1> Síne Whooley </h1>
+                
+                    <h5> Carlow, Ireland /  
+                        <button onclick="openLinkedIn()" class="liBut"> Linked In </button> 
+                    </h5>
+                </section>
+
+                <section>
+                    <ul class="navbar">
+                        <li id="nbItems"><a href="index.html"> Home </a></li>
+                        <li id="nbItems"><a href="portfolio.html" > Portfolio </a></li>
+                        <li id="nbItems"><a href="cv.html"> CV </a></li>
+                        <li id="nbItems"><a href="services.html" > Contact </a></li>
+                    </ul>
+                </section>
+
+
+            <!-- Display for Mobile -->
+                <div class="phoneNavLayout">
+                    <div class="phoneNB">
+                        <button id="phoneNB"><a href="index.html"> <img src="assets/img/Home_Icon.png" alt="Home_Icon" width="30%">    </a></button>
+                    </div>
+                    <div class="phoneNB">
+                        <button id="phoneNB"><a href="portfolio.html" > <img src="assets/img/Folder_Icon.png" alt="Portfolio_Icon" width="30%"> </a></button>
+                    </div>
+                    <div class="phoneNB">
+                        <button id="phoneNB"><a href="cv.html"> <img src="assets/img/CV_Icon.png" alt="CV_Icon" width="30%"> </a></button>
+                    </div>
+                    <div class="phoneNB">
+                        <button id="phoneNB"><a href="services.html" > <img src="assets/img/Phone_Icon.png" alt="Phone_Icon" width="30%"> </a></button>
+                    </div>
+                </div>
+
+            </header>
+
+            <div id="homeWelcomeStyle">
+                <img id="homeImgModern" src="assets/img/Purple.png" alt="Modern Digital Art">
+                <div id="homeText">
+                    <br>
+                    <h2 id="homeWelcome"> Hello & Welcome to my Website! </h2>
+                    <hr>  
+                    <p id="homeInfo" >
+                        I have created this website to demonstrate my ever-growing skills with Art, 
+                        Digital Art, UI & UX Design. 
+                        I will be updating this website as I come up with new creations, 
+                        so more exciting works to look forward to!   
+                    </p>
+                </div>
+            </div>
+
+            <hr id="homeLineDivide"> 
+
+            <footer>
+                    <p><a href="services.html">Get in touch!</a> </p>
+            </footer>
+        </section>
+
+
+        <script src="assets/js/script.js"></script><!-- To include the JavaScript file-->
+    </body>
+</html>

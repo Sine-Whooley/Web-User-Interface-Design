@@ -19,7 +19,7 @@ Lecturers, the exam boards and hopefully any future employer is the target audie
 
 ## Learning Reflections
 ### Challenges
-- **Lab 4:**  
+- **Lab 4:**  NOTE: First line in JS file needs to be looked at.
 
 ### Insights
 - **Lab 4:**  

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content = "Sine Whooley">
+        <meta name = "viewport" content="width=device-width", initial-scale="1.0">
+        <title>Síne Whooley </title> <!-- Lab-05:  -->
+        <link href = "assets/css/stylesheet.css" rel="stylesheet" text="text/css">
+    </head>
+
+    <body> 
+        <header>
+            <!-- <button id="lMode" onclick="changeLight()">Light-mode</button><br><br>
+            <button id="dMode" onclick="changeDark()">Dark-mode</button> -->
+
+            <br>
+            <section class="headerInfo">
+                <h1> Síne Whooley </h1>
+            
+                <h5> Carlow, Ireland /  
+                    <button onclick="openLinkedIn()" class="liBut"> Linked In </button> 
+                </h5>
+            </section>
+
+            <section>
+                <ul class="navbar">
+                    <li id="nbItems"><a href="index.html"> Home </a></li>
+                    <li id="nbItems"><a href="portfolio.html" > Portfolio </a></li>
+                    <li id="nbItems"><a href="cv.html"> CV </a></li>
+                    <li id="nbItems"><a href="services.html" > Contact </a></li>
+                </ul>
+            </section>
+
+           <!-- Display for Mobile -->
+           <div class="phoneNavLayout">
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="index.html"> <img src="assets/img/Home_Icon.png" alt="Home_Icon" width="30%">    </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="portfolio.html" > <img src="assets/img/Folder_Icon.png" alt="Portfolio_Icon" width="30%"> </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="cv.html"> <img src="assets/img/CV_Icon.png" alt="CV_Icon" width="30%"> </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="services.html" > <img src="assets/img/Phone_Icon.png" alt="Phone_Icon" width="30%"> </a></button>
+            </div>
+        </div>
+        </header> 
+ 
+            <form class = serviceForm>
+                <label for="userName"><em> Name: </em></label>  
+                <input id="userName" required type="text" placeholder=" Enter your name... ">
+                <br><br>
+                <label for="userEmail"><em> Email: </em></label>
+                <input id="userEmail" required type="email" placeholder=" Enter your email... ">
+                <br><br>
+                <label for="userEmail"><em> D.O.B: </em></label>
+                <input id="userEmail" required type="date" >
+                <br><br>
+                <hr>
+                <br>
+                <label for="relatedTo">Related to: </label>
+                <select required name="relatedTo" id="relatedTo" >
+                    <option value="didgtalArt">Digital Art</option>
+                    <option value="paintingArt">Paintings</option>
+                    <option value="webDesign">Web Design</option>
+                </select>
+
+                <br><br>
+                <textarea id="textBox" required  rows="5" cols="30" placeholder=" How can I help you?... "></textarea>
+                <br><br>
+                <input id="inputButton" type="Submit" onclick="returnUserInfo()">
+            </form>
+
+            <br><br>
+        <footer>
+            <p><a href="services.html">Get in touch!</a> </p>
+        </footer>
+ 
+        <script src="assets/js/script.js"></script><!-- To include the JavaScript file-->
+    </body>
+</html>

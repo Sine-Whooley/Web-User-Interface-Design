@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content = "Sine Whooley">
+        <meta name = "viewport" content="width=device-width", initial-scale="1.0">
+        <title>Síne Whooley </title> <!-- Lab-05:  -->
+        <link href = "assets/css/stylesheet.css" rel="stylesheet" text="text/css">
+    </head>
+
+    <body> 
+
+        <header>
+            <!-- <button id="lMode" onclick="changeLight()">Light-mode</button><br><br>
+            <button id="dMode" onclick="changeDark()">Dark-mode</button> -->
+
+            <br>
+            <section class="headerInfo">
+                <h1> Síne Whooley </h1>
+            
+                <h5> Carlow, Ireland /  
+                    <button onclick="openLinkedIn()" class="liBut"> Linked In </button> 
+                </h5>
+            </section>
+            
+            <section>
+                <ul class="navbar">
+                    <li id="nbItems"><a href="index.html"> Home </a></li>
+                    <li id="nbItems"><a href="portfolio.html" > Portfolio </a></li>
+                    <li id="nbItems"><a href="cv.html"> CV </a></li>
+                    <li id="nbItems"><a href="services.html" > Contact </a></li>
+                </ul>
+            </section>
+
+        <!-- Display for Mobile -->
+        <div class="phoneNavLayout">
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="index.html"> <img src="assets/img/Home_Icon.png" alt="Home_Icon" width="30%">    </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="portfolio.html" > <img src="assets/img/Folder_Icon.png" alt="Portfolio_Icon" width="30%"> </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="cv.html"> <img src="assets/img/CV_Icon.png" alt="CV_Icon" width="30%"> </a></button>
+            </div>
+            <div class="phoneNB">
+                <button id="phoneNB"><a href="services.html" > <img src="assets/img/Phone_Icon.png" alt="Phone_Icon" width="30%"> </a></button>
+            </div>
+        </div>
+        </header>
+
+
+    <!-- Display for Desktop / Tablet -->
+        <div class="paintingsGrid">
+            <div class="column">
+                <h3>Paintings</h3>
+                    <img id="imageDimensions" src="assets/img/Turtle.jpg" alt="Turtle" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Dog.jpg" alt="Dog" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Owl.jpg" alt="Owl" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Pig-Reading.jpg" alt="Pig Reading" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Dragon.jpg" alt="Dragon" width="300px">
+                    <br><br>
+                    <img  id="imageDimensions" src="assets/img/Lion.jpg" alt="Lion" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Flowers-Green.jpg" alt="Green Flowers" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Bridge.jpg" alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Flowers-Blue.jpg" alt="Blue Flowers" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Tunnel.jpg" alt="Tunnel" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Face A 5x5 Plain.jpg" alt="Face" width="300px">
+            </div>
+            <div class="column">
+                <h3>Digital Art</h3>
+                    <img id="imageDimensions" src="assets/img/Purple.png" alt="Purple" width="300px"> 
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Rock-Climber.png" alt="Rock-Climber" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/Pop-Art.png" alt="Pop-Art" width="300px">
+            </div>
+            <div class="column">
+                <h3>Crafts</h3>
+                    <img id="imageDimensions" src="assets/img/1.jpg" alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/2.jpg" alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/3.jpg" alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/4.jpg " alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/5.jpg " alt="" width="300px">
+                    <br><br>
+                    <img id="imageDimensions" src="assets/img/6.jpg " alt="" width="300px">
+            </div>
+        </div>
+
+
+<!-- Display for Mobile -->
+<div class="paintingsGridMob">
+    <button class="portMobBut"> &star;  Paintings </button>  <!-- onclick="portfolioMobDisplay()-->
+    <div class="portMobDisplay">
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Turtle.jpg" alt="Turtle"></div>
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Dog.jpg" alt="Dog"> </div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Owl.jpg" alt="Owl"></div>   
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Pig-Reading.jpg" alt="Pig Reading"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Dragon.jpg" alt="Dragon"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Lion.jpg" alt="Lion"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Flowers-Green.jpg" alt="Green Flowers"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Bridge.jpg" alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Flowers-Blue.jpg" alt="Blue Flowers"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Tunnel.jpg" alt="Tunnel"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Face A 5x5 Plain.jpg" alt="Face"></div>  
+    </div>
+
+    <button class="portMobBut"> &star;  Digital Art </button>
+    <div class="portMobDisplay">
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Purple.png" alt="Purple"> </div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Rock-Climber.png" alt="Rock-Climber"></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/Pop-Art.png" alt="Pop-Art"></div>  
+    </div>
+
+<!-- <h3>Crafts</h3> -->
+    <button class="portMobBut"> &star;  Crafts </button>
+    <div class="portMobDisplay">
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/1.jpg" alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/2.jpg" alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/3.jpg" alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/4.jpg " alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/5.jpg " alt=""></div>  
+        <div class="columnMob"><img id="imageDiMob" src="assets/img/6.jpg " alt=""></div>  
+    </div>
+</div>
+
+
+        <footer>
+            <p><a href="services.html">Get in touch!</a> </p>
+        </footer>
+
+
+
+
+        <script src="assets/js/script.js"></script><!-- To include the JavaScript file-->
+    </body>
+</html>
